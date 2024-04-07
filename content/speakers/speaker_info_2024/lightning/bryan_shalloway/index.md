@@ -1,6 +1,6 @@
 ---
 title: "Bryan Shalloway"
-url: "YEAR/lightning/bryan_shalloway"
+url: "2024/lightning/bryan_shalloway"
 ---
 
 ### Prediction Intervals in Tidymodels
