@@ -11,7 +11,7 @@ The precise calculation of sample sizes is a crucial aspect in the design of two
 
 <table>
   <tr><td><img width="300px" style="float: left; padding: 0px 20px 0px 0px;" 
-           src="../../../../img/speakers/speakers_2024/mohsen_oltanifar.jpg" alt="Mohsen Soltanifar"></td>
+           src="../../../../img/speakers/speakers_2024/mohsen_soltanifar.jpg" alt="Mohsen Soltanifar"></td>
   <td>
       <h5>Pronouns: he/him</h5>
       <h5>LOCATION HERE</h5>

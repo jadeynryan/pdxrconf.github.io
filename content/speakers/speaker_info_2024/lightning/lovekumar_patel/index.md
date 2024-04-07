@@ -1,6 +1,6 @@
 ---
 title: "Lovekumar Patel"
-url: "2024/lightning/Lovekumar Patel"
+url: "2024/lightning/lovekumar_patel"
 ---
 
 ### Empowering Decisions: Advanced Portfolio Analysis and Management through Shiny
