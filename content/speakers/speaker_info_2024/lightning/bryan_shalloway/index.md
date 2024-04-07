@@ -11,7 +11,7 @@ In the evolving landscape of statistical modeling and machine learning, the tidy
 
 <table>
   <tr><td><img width="300px" style="float: left; padding: 0px 20px 0px 0px;" 
-           src="../static/img/speakers/speakers_2024/bryan_shalloway.jpg" alt="Bryan Shalloway"></td>
+           src="../../../../img/speakers/speakers_2024/bryan_shalloway.jpg" alt="Bryan Shalloway"></td>
   <td>
       <h5>Pronouns: he/him</h5>
       <h5>Seattle, WA</h5>
