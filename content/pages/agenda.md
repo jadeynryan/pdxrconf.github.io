@@ -1,9 +1,7 @@
-<!-- NOTE that the header has been removed to avoid problems with website render. This is just an example agenda for reference. The header would look like so
-
 ---
 title: "Agenda"
 layout: "agenda"
-url: "agenda_example"
+url: "agenda"
 ---
 
 
@@ -38,7 +36,7 @@ border-color:black;
 .descriptioncontainer {width:60%px;}
 
 </style>
--->
+
 <!-- </style> -->
 
 <h1>Communication</h1>
@@ -54,11 +52,15 @@ border-color:black;
 
 * [Deepsha Menghani](/speakers/speaker_info_2024/keynote/deepsha_menghani): Harnessing the power of Gen AI with RAGs
 
+#### 9:40-9:55 Break
+
 #### 9:55-10:55 R-evolution: Articifial intelligence & R
 
 * [Nikhita Damaraju](/speakers/speaker_info_2024/regular/nikhita_damaraju): R-tificial intelligence: A guide to using R for ML  
 * [Emily Kraschel](/speakers/speaker_info_2024/regular/emily_kraschel): R Workflows in Azure Machine Learning for Athletic Data Analysis
 * [Simon Couch](/speakers/speaker_info_2024/regular/simon_couch): Fair machine learning
+
+#### 10:55-11:10 Break
 
 #### 11:10-12:10 Visual narRatives
 
@@ -74,6 +76,8 @@ border-color:black;
 * [Dror Berel](/speakers/speaker_info_2024/regular/dror_berel): High-level, module-based R/Shiny apps with ‘Teal’ framework, with applications beyond the pharma data domain
 * [Matthew Bayly](/speakers/speaker_info_2024/regular/matthew_bayly): CEMPRA: Building an R package, R Shiny application, and Quarto book for Cumulative Effect Assessments in BC
 
+#### 2:10-2:25 Break
+
 #### 2:25-2:55 Lightning Talks!
 
 * [Bryan Shalloway](/speakers/speaker_info_2024/lightning/bryan_shalloway): Prediction Intervals in Tidymodels
@@ -83,6 +87,8 @@ border-color:black;
 * [Cameron Ashton](/speakers/speaker_info_2024/lightning/cameron_ashton): Building R Packages to Deliver Generalized Functions: An Example from Small Number Suppression for Epidemiological Dashboarding
 * [Mohsen Soltanifar](/speakers/speaker_info_2024/lightning/mohsen_soltanifar): GenTwoArmsTrialSize: An R Statistical Software Package to estimate Generalized Two Arms Clinical Trial Sample Size
 
+#### 2:55-3:15 Break
+
 #### 3:15-4:15 OuR journeys in community & collaboration
 
 * [Lydia Gibson](/speakers/speaker_info_2024/regular/lydia_gibson): Learning Together at the Data Science Learning Community
@@ -90,6 +96,8 @@ border-color:black;
 * [Russell Shean](/speakers/speaker_info_2024/regular/russell_shean): Just double click on this to automatically to setup an R environment: How to use batch scripts to make it easier for colleagues to start using your R projects 
 
 #### 4:15-4:20 Closing Remarks
+
+#### 4:20-4:30 Break
 
 #### 4:30-6:00 Reception
 
