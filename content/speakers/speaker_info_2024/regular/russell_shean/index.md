@@ -14,7 +14,7 @@ Presenting Author: Russell Shean Co-authors: Roxanne Beauclair and Zeyno Nixon B
            src="../../../../img/speakers/speakers_2024/russell_shean.jpg" alt="Russell Shean"></td>
   <td>
       <h5>Pronouns: he/him</h5>
-      <h5>LOCATION HERE</h5>
+      <h5>Seattle, WA</h5>
       "Russell Shean is an epidemiologist at the Washington State Department of Health where he helps develop data visualization dashboards. 
 
 You can connect with him on LinkedIn:  https://www.linkedin.com/in/russell-shean"
