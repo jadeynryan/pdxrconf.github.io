@@ -46,6 +46,8 @@ border-color:black;
 ## June 21, 2024
 <br>
 
+#### 8:00-9:00 Registration and Breakfast
+
 #### 9:00-9:10 Introductions
 
 #### 9:10-9:40 Keynote 
@@ -92,7 +94,7 @@ border-color:black;
 #### 3:15-4:15 OuR journeys in community & collaboration
 
 * [Lydia Gibson](/2024/regular/lydia_gibson): Learning Together at the Data Science Learning Community
-* [Ted Laderas](/2024/regular/ted_laderas): ## Never been to Me : A Queer Journey through the LGB Generations Data
+* [Ted Laderas](/2024/regular/ted_laderas): Never been to Me : A Queer Journey through the LGB Generations Data
 * [Russell Shean](/2024/regular/russell_shean): Just double click on this to automatically to setup an R environment: How to use batch scripts to make it easier for colleagues to start using your R projects 
 
 #### 4:15-4:20 Closing Remarks
