@@ -8,21 +8,20 @@ url: "speaker_faq"
 # Logistics
 
 ### Where do I upload my slides?
-Please refer to the Google Drive link sent to you via email. If you do not have this link, please contact <cascadiarcon@gmail.com>.
+Please refer to the link sent to you via email. If you do not have this link, please contact <cascadiarcon@gmail.com>.
 
-### There is an error in my bio/abstract/photo on the CascadiaR website. How do I fix this?
-Contact <cascadiarcon@gmail.com> and let us know the issue. We will make sure
-it gets to our web developer.
+### There is an error in my title/abstract/bio/photo on the CascadiaR website. How do I fix this?
+Open an issue on [our GitHub](https://github.com/pdxrconf/pdxrconf.github.io/issues) and we will resolve the issue asap.
 
 ### What if I can no longer present in person?
-Please contact <cascasiarcon@gmail.com> as soon as possible and we will work to transition you to a virtual talk format.
+Please contact <cascasiarcon@gmail.com> as soon as possible, and we will work to transition you to a virtual talk format is possible.
 
 <br>
 
 # Presentation guidelines
 ### Prior to the conf
 
-* Please upload your presentation by end of day August 16.
+* Please upload your presentation by end of day June 20.
 * We request that you upload both the original format and a PDF just in case technical issues arise.
 * If you have a live demo or other presentation that you must present directly from your computer, please see an organizer during registration or the break prior to your session to verify setup.
 
