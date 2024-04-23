@@ -43,7 +43,7 @@ border-color:black;
   <h4>Join us on <a href="https://join.slack.com/t/cascadiarconf/shared_invite/zt-1lu53059t-GAxQtzrwQhmo7BXE7YfC8w" target="blank_">Slack</a></h4>
   <br>
 
-## June 21, 2024
+## June 22, 2024
 <br>
 
 #### 8:00-9:00 Registration and Breakfast
