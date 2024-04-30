@@ -175,8 +175,8 @@ _UNDER DEVELOPMENT_
 To add:
 
 1. Navigate to the appropriate session directory in `content/speakers/speaker_info_YEAR/` i.e. one of `keynote/`, `lightning/`, `regular/`, or `workshop/`
-0. Copy the the template directory and rename as `firstname_lastname` for the speaker or a short name for workshops
-0. Fill out the `index.md` including
+2. Copy the the template directory and rename as `firstname_lastname` for the speaker or a short name for workshops
+3. Fill out the `index.md` including
     - title
     - url (make sure the format is the speaker's `firstname_lastname` all lowercase, underscore separators)
     - Talk title, session time, and location
@@ -186,11 +186,11 @@ To add:
         - Pronouns
         - Location (i.e. where they live)
         - Biography
-0. [Optional] Add a speaker photo in `../../../../img/speakers/speakers_YEAR/` named `firstname_lastname.png` (`.jpg` also okay)
+4. [Optional] Add a speaker photo in `../../../../img/speakers/speakers_YEAR/` named `firstname_lastname.png` (`.jpg` also okay)
     - If no photo provided, it will render the conference logo instead
-0. Add/update URL link in `content/pages/agenda.md`
-0. If keynote speaker, add name, title, biography, and image to `layouts/partials/keynotes.html`
-0. Repeat for all speakers
+5. Add/update URL link in `content/pages/agenda.md`
+6. If keynote speaker, add name, title, biography, and image to `layouts/partials/keynotes.html`. If there are multiple keynotes, update `config.toml` to correct the pluralization in "We are proud to announce this year's Keynote Speaker!".
+7. Repeat for all speakers
 
 Once the keynote speakers are added, update the `speakers` parameter in [Step 2.8](#update) to highlight them on the homepage.
 

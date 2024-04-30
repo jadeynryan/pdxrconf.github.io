@@ -3,9 +3,9 @@ title: "Deepsha Menghani"
 url: "2024/keynote/deepsha_menghani"
 ---
 
-### Harnessing the power of Gen AI with RAGs
+### Why is everybody talking about Generative AI?
 
-In the rapidly evolving field of AI, it’s pivotal to stay at the forefront of the latest advancements. Let’s uncover how Gen AI and Retrieval-Augmented Generation techniques enhance the quality and relevance of AI-generated content, making it more accurate and contextually aware of the business needs. 
+Join me on an exciting journey into the world of Generative AI, where creativity meets innovation. Through various practical scenarios, we'll explore how applications built on GenAI have been a game-changer across industries. Let’s imagine where you can use GenAI applications all around you, from summarizing patient history in healthcare to creating dynamic FAQ sections on your Shiny website. But do these applications always provide relevant answers? 
 <br><br>
 
 <table>
