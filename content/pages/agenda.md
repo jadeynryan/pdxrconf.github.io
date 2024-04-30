@@ -52,7 +52,7 @@ border-color:black;
 
 #### 9:10-9:40 Keynote 
 
-* [Deepsha Menghani](/2024/keynote/deepsha_menghani): Harnessing the power of Gen AI with RAGs
+* [Deepsha Menghani](/2024/keynote/deepsha_menghani): Why is everybody talking about Generative AI?
 
 #### 9:40-9:55 Break
 
