@@ -11,7 +11,7 @@ The fast-paced needs of the University of Oregon Athletics Department contrast w
 
 <table>
   <tr><td><img width="300px" style="float: left; padding: 0px 20px 0px 0px;" 
-           src="../../../../img/speakers/speakers_2024/emily_kraschel.jpg" alt="Emily Kraschel"></td>
+           src="../../../../img/speakers/speakers_2024/emily_kraschel.png" alt="Emily Kraschel"></td>
   <td>
       <h5>Pronouns: she/her</h5>
       <h5>Eugene, OR</h5>
