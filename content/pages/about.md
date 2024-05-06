@@ -21,6 +21,7 @@ this year and hope to see you there!</h3>
 
 <br>
 
++ [Brittany Barker](http://brittanysbarker.org
 + Brittney Kroiss
 + Cameron Mulder
 + Cari Gostic
@@ -29,7 +30,6 @@ this year and hope to see you there!</h3>
 + [Jadey Ryan](https://jadeyryan.com)
 + Katie Masiello
 + [Lydia Gibson](https://lgibson7.quarto.pub/once-upon-a-time-series/about.html)
-+ Melissa Lee
 + Miranda Fix
 + Mohsen Soltanifar
 + Peter Geissert
