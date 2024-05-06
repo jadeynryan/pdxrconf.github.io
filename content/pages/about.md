@@ -21,7 +21,7 @@ this year and hope to see you there!</h3>
 
 <br>
 
-+ [Brittany Barker](http://brittanysbarker.org
++ [Brittany Barker](http://brittanysbarker.org)
 + Brittney Kroiss
 + Cameron Mulder
 + Cari Gostic
