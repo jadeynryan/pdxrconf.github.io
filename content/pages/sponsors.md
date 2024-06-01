@@ -25,7 +25,7 @@ url: "sponsors"
 
 <div class="image" style="padding: 20px">
   <a href="https://www.jumpingrivers.com/" target="_blank">
-  <img src="/img/sponsors/Jumping_rivers.jpeg class="img-responsive" alt="Jumping Rivers Logo" style="width:400px;"></a></div>
+  <img src="/img/sponsors/Jumping_rivers.jpeg" class="img-responsive" alt="Jumping Rivers Logo" style="width:400px;"></a></div>
 
 <br>
 
