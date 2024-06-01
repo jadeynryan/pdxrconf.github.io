@@ -53,6 +53,11 @@ url: "venue"
   
   <br>
 
+  <h3>All gender restrooms</h3>
+  All gender / ungendered restrooms are available in Building S. Conference organizers will be available throughout the event to facilitate access to this building.
+
+  <br>
+  
   <h3>Lactation rooms</h3>
   Private lactation rooms are available in the buildings next door. Please notify an organizer that you will need one of these rooms when you check-in. Lactation rooms are located in:
   
