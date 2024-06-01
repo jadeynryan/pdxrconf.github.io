@@ -15,7 +15,7 @@ agenda="false"
 speakers="true"
 register="true"
 alert="false"
-scholarship="true"
+scholarship="false"
 workshop="true"
 
 ###### Logo paths ######
