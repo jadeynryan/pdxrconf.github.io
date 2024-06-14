@@ -3,8 +3,10 @@ title: "Sponsors"
 url: "sponsors"
 ---
 
+<!--
 <h3>We are currently looking for sponsors for Cascadia R Conf 2024! If you are interested in sponsoring, please see our <a href="https://drive.google.com/file/d/1PJ6jyxdbrb8gJTSq4EL9ZqoPd490v-X2/view?usp=sharing">sponsorship levels</a> and contact us 
 <a href="mailtso:cascadiarcon@gmail.com">here</a> </h3>
+-->
 
 <br>
 
@@ -18,6 +20,15 @@ url: "sponsors"
   
 <br>
 
+<h3>Bronze</h3>
+
+<br>
+
+<div class="image" style="padding: 20px">
+  <a href="https://www.r-consortium.org/" target="_blank">
+  <img src="/img/sponsors/rconsortium.png" class="img-responsive" alt="R Consortium Logo" style="width:400px;"></a></div>  
+
+<br>
 
 <h3>Associate</h3>
 
