@@ -47,9 +47,13 @@ url: "venue"
   
   <h3>Parking</h3> 
 
-  There is paid parking for $21/day under building C as indicated in the above map. There is additional parking under building F but this is mostly limited to patient and employees of UW.
+  <h4>Friday workshops</h4> 
   
-  Additionally, there is paid street parking in the area with 10-hour areas on 8th Ave N.
+  There is paid parking for $21/day under building C as indicated in the above map. Additionally, there is paid street parking in the area with 10-hour areas on 8th Ave N.
+
+  <h4>Saturday conference</h4> 
+
+  **There is no parking at UW SLU on weekends.** Amazon offers free parking at its South Lake Union buildings on weekends including [Obidos/Rufus](https://maps.app.goo.gl/SUAwukzyMQ2hLuVJA) and [Ruby/Dawson](https://maps.app.goo.gl/ewJ8QM2GAVVWKGoS9). Both are a < 10-minute walk from the conference. Additionally, there is paid street parking in the area with 10-hour areas on 8th Ave N.
   
   <br>
 
