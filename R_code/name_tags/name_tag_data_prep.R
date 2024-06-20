@@ -16,8 +16,11 @@ dat <- read_csv(file[length(file)]) %>%
          preferred_pronouns = ifelse(is.na(preferred_pronouns) | preferred_pronouns=="yes"," ",
                                      preferred_pronouns),
          preferred_pronouns = recode(preferred_pronouns,
-                                     "he.../because/i/could/never/be/'him'."="he")) %>% 
-  # Fix name formatting
+                                     "he.../because/i/could/never/be/'him'."="he",
+                                     "me"=" ",
+                                     "helen"=" ",
+                                     "bahar"=" ")) %>% 
+  # Fix name formatting 
   rowwise() %>% 
   mutate(first_name = str_to_title(first_name),
          first_name = case_when(grepl("\\(",first_name)~strsplit(first_name, split="\\(|\\)")[[1]][2],
@@ -27,6 +30,7 @@ dat <- read_csv(file[length(file)]) %>%
                                 TRUE~first_name),
          first_name = case_when(first_name == "Mehar Pratap"~"Mehar", TRUE~first_name),
          last_name = case_when(last_name=="mulder"~"Mulder",
+                               last_name=="BERNAL ONTORIA"~"Bernal Ontoria",
                                last_name=="LaBAZZO"~"LaBazzo",
                                last_name %in% c("HU", "BEVERS", "XIONG",
                                                 "GURREY","TAYLORIS") ~ str_to_title(last_name),
@@ -35,44 +39,54 @@ dat <- read_csv(file[length(file)]) %>%
                                first_name == "Mehar" & last_name == "Singh" ~ "Pratap Singh",
                                TRUE~last_name)) %>% 
   distinct() %>%
+  filter(last_name != "LANDER") %>% 
+  mutate(preferred_pronouns=ifelse(is.na(preferred_pronouns) |
+                                     preferred_pronouns %in% c(""," "),"&nbsp;",
+                                   preferred_pronouns)) %>% 
   #create wrapper info
   mutate(line1 = "::: {.wrapper data-repeat='1'}",
          line2 = paste0("[",first_name,"<br>",last_name,"]{slot='name'}"),
          line3 = paste0("[",preferred_pronouns,"]{slot='title'}"),
          line5=":::") %>% 
   arrange(last_name,first_name) %>% 
-  rownames_to_column()
+  rownames_to_column() %>% 
+  mutate(ticket_group = case_when(grepl("workshop", ticket_type)~"workshop",
+                                  grepl("Virtual|virtual",ticket_type)~"virtual",
+                                  grepl("Speaker",ticket_type)~"speaker",
+                                  grepl("Committee|Organizer", ticket_type)~"committee",
+                                  TRUE~"regular")) %>% 
+  distinct(ticket_group, line1, line2, line3, line5)
 # unique(dat$line2)
 
-## Regular
+## Conference
 dat %>% 
-  filter(ticket_type %in% c("Early-bird","Regular","Student","Sponsor","Scholarship")) %>% 
-  filter(first_name != "Brittany" & last_name != "Barker") %>% 
-  filter(first_name != "Brittney" & last_name != "Kroiss") %>% 
-  select(rowname,line1:line5) %>% 
+  filter(ticket_group %in% c("regular","speaker")) %>% 
+  mutate(line4=ifelse(ticket_group=="speaker","[Speaker]{slot='url'}", "")) %>% 
+  select(line1:line3,line4,line5) %>% 
+  rownames_to_column() %>% 
   pivot_longer(-rowname) %>% 
   arrange(as.numeric(rowname), name) %>% 
   select(-rowname)  %>% 
-  write_csv(file = "R_code/name_tags/data_regular.csv", col_names = FALSE)
+  filter(value!="") %>% 
+  write_csv(file = "R_code/name_tags/data_conf.csv", col_names = FALSE)
 
-## Speaker
+## Workshop
 dat %>% 
-  filter(ticket_type %in% c("Speaker")) %>% 
-  select(rowname,line1:line5) %>% 
-  mutate(line4="[Speaker]{slot='url'}") %>% 
+  filter(ticket_group == "workshop") %>% 
+  select(line1:line5) %>% 
+  mutate(line4="[Workshop]{slot='url'}") %>% 
+  rownames_to_column() %>% 
   pivot_longer(-rowname) %>% 
   arrange(as.numeric(rowname), name) %>% 
   select(-rowname) %>% 
-  write_csv(file = "R_code/name_tags/data_speaker.csv", col_names = FALSE)
+  write_csv(file = "R_code/name_tags/data_workshop.csv", col_names = FALSE)
 
 ## Organizer
 dat %>% 
-  filter(ticket_type %in% c("Organizer") |
-           (first_name == "Brittany" & last_name == "Barker") |
-           (first_name == "Brittney" & last_name == "Kroiss")
-  ) %>% 
-  select(rowname,line1:line5) %>% 
+  filter(ticket_group == "committee") %>% 
+  select(line1:line5) %>% 
   mutate(line4="[Organizer]{slot='url'}") %>% 
+  rownames_to_column() %>% 
   pivot_longer(-rowname) %>% 
   arrange(as.numeric(rowname), name) %>% 
   select(-rowname) %>%
