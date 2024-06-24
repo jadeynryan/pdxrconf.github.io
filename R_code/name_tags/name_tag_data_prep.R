@@ -14,32 +14,15 @@ dat <- read_csv(file[length(file)]) %>%
          preferred_pronouns = gsub("///","/",preferred_pronouns),
          preferred_pronouns = gsub("//","/",preferred_pronouns),
          preferred_pronouns = ifelse(is.na(preferred_pronouns) | preferred_pronouns=="yes"," ",
-                                     preferred_pronouns),
-         preferred_pronouns = recode(preferred_pronouns,
-                                     "he.../because/i/could/never/be/'him'."="he",
-                                     "me"=" ",
-                                     "helen"=" ",
-                                     "bahar"=" ")) %>% 
+                                     preferred_pronouns)) %>% 
   # Fix name formatting 
   rowwise() %>% 
   mutate(first_name = str_to_title(first_name),
          first_name = case_when(grepl("\\(",first_name)~strsplit(first_name, split="\\(|\\)")[[1]][2],
-                                first_name=="Mohammed Sahal"~"Sahal",
-                                first_name == "Ann" & last_name == "Rasmussen" & 
-                                  ticket_type == "Student" ~ "Rachel",
                                 TRUE~first_name),
-         first_name = case_when(first_name == "Mehar Pratap"~"Mehar", TRUE~first_name),
-         last_name = case_when(last_name=="mulder"~"Mulder",
-                               last_name=="BERNAL ONTORIA"~"Bernal Ontoria",
-                               last_name=="LaBAZZO"~"LaBazzo",
-                               last_name %in% c("HU", "BEVERS", "XIONG",
-                                                "GURREY","TAYLORIS") ~ str_to_title(last_name),
-                               first_name == "Rachel" & last_name == "Rasmussen" & 
-                                 ticket_type == "Student" ~ "Cross",
-                               first_name == "Mehar" & last_name == "Singh" ~ "Pratap Singh",
+         last_name = case_when(last_name %in% c("ALL CAPS") ~ str_to_title(last_name),
                                TRUE~last_name)) %>% 
   distinct() %>%
-  filter(last_name != "LANDER") %>% 
   mutate(preferred_pronouns=ifelse(is.na(preferred_pronouns) |
                                      preferred_pronouns %in% c(""," "),"&nbsp;",
                                    preferred_pronouns)) %>% 
