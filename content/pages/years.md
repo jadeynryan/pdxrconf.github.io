@@ -8,6 +8,7 @@ url: "years"
 ### - [Agenda](../years/2024/agenda)
 ### - [Talk PDFs](https://github.com/pdxrconf/pdxrconf.github.io/tree/newsite/static/talks/talks_2024)
 ### - Video coming soon!
+### - <a href="/workshop_past">Workshops</a>
 
 ## 2023: Seattle, WA
 
