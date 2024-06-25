@@ -1,7 +1,7 @@
 ---
 title: "Agenda"
 layout: "agenda"
-url: "agenda"
+url: "/years/2024/agenda"
 ---
 
 
