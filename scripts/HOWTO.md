@@ -281,7 +281,7 @@ As you gather more information and plan, continue to edit the website on your lo
 
 * Turn off all except "logo" and run `UPDATE.sh`
 * Scrub any old data from `content/pages/faq.md`
-* Render the final agenda as an html and save it as `content/archive/agenda-YEAR.html`. Update `content/pages/years.html` with a link to this html agenda
+* Change the agenda url to `/years/YEAR/agenda`, render the final agenda as an html, and save it as `content/archive/agenda-YEAR.html`. Update `content/pages/years.html` with a link to this html agenda
 * Upload slide PDFs to `static/talks/talks_YEAR/`. Update `content/pages/years.html` with a link to this directory on GitHub
 * Upload videos to YouTube and add link to `content/years.html`
 * Add past workshop links to `content/pages/workshop_past.md`
