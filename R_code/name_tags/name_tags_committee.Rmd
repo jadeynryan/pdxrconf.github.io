@@ -1,5 +1,5 @@
 ---
-logo: "logo_2023.png"
+logo: "logo_2024.png"
 paperwidth: 8.5in
 paperheight: 11in
 cardwidth: 4in
@@ -26,6 +26,11 @@ output: pagedown::business_card
 [Organizer]{slot='url'}
 :::
 ::: {.wrapper data-repeat='1'}
+[Lydia<br>Gibson]{slot='name'}
+[she/her]{slot='title'}
+[Organizer]{slot='url'}
+:::
+::: {.wrapper data-repeat='1'}
 [Dominik<br>Graetz]{slot='name'}
 [he/him]{slot='title'}
 [Organizer]{slot='url'}
@@ -36,12 +41,12 @@ output: pagedown::business_card
 [Organizer]{slot='url'}
 :::
 ::: {.wrapper data-repeat='1'}
-[Brittney<br>Kroiss]{slot='name'}
-[she/they]{slot='title'}
+[Travis<br>Knoche]{slot='name'}
+[he/him]{slot='title'}
 [Organizer]{slot='url'}
 :::
 ::: {.wrapper data-repeat='1'}
-[Katie<br>Masiello]{slot='name'}
+[Melissa<br>Lee]{slot='name'}
 [she/her]{slot='title'}
 [Organizer]{slot='url'}
 :::
@@ -51,24 +56,18 @@ output: pagedown::business_card
 [Organizer]{slot='url'}
 :::
 ::: {.wrapper data-repeat='1'}
-[Ezgi<br>Yucel]{slot='name'}
+[Jadey<br>Ryan]{slot='name'}
 [she/her]{slot='title'}
 [Organizer]{slot='url'}
 :::
-
 ::: {.wrapper data-repeat='1'}
-[.<br>.]{slot='name'}
-[.]{slot='title'}
+[Mohsen<br>Soltanifar]{slot='name'}
+[he/him]{slot='title'}
 [Organizer]{slot='url'}
 :::
 ::: {.wrapper data-repeat='1'}
-[.<br>.]{slot='name'}
-[.]{slot='title'}
-[Organizer]{slot='url'}
-:::
-::: {.wrapper data-repeat='1'}
-[.<br>.]{slot='name'}
-[.]{slot='title'}
+[Ezgi<br>Yucel]{slot='name'}
+[she/her]{slot='title'}
 [Organizer]{slot='url'}
 :::
 
@@ -84,11 +83,11 @@ br {
   background-color: white;
   border: 1px dashed grey;
   text-align: center;
-  background-image: "logo_2023.png";
+  background-image: "logo_2024.png";
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border-bottom: 50px solid orange;
+  border-bottom: 50px solid #9bc6d3;
 }
 
 .name{
@@ -110,7 +109,7 @@ br {
 }
 
 .logo {
-  height: 8%;
+  height: 10%;
   float: left;
   margin-left: 10px;
   margin-top: -20px;

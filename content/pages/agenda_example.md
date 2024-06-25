@@ -7,7 +7,6 @@ url: "agenda_example"
 ---
 
 
-
 <style>
 td {vertical-align:top;}
 .agenda {
@@ -39,62 +38,71 @@ border-color:black;
 
 </style>
 -->
-<!-- </style> -->
 
 <h1>Communication</h1>
   <h4>Join us on <a href="https://join.slack.com/t/cascadiarconf/shared_invite/zt-1lu53059t-GAxQtzrwQhmo7BXE7YfC8w" target="blank_">Slack</a></h4>
   <br>
 
-## DATE
+## June 22, 2024
 <br>
 
-#### 8:00-8:05 Introductions
+#### 8:00-9:00 Registration and Breakfast
 
-#### 8:05-8:45 Keynotes 
+#### 9:00-9:10 Introductions
 
-* [Jacqueline Nolis](/2022/keynote/jacqueline_nolis): The Messy Space between Analysis and Output 
-* [Tiffany Timbers](/2022/keynote/tiffany_timbers): 10 Simple Rules for Teaching R for Data Science
+#### 9:10-9:40 Keynote 
 
-#### 8:55-9:50 Developing in R
+* [Deepsha Menghani](/2024/keynote/deepsha_menghani): Why is everybody talking about Generative AI?
 
-* [Dan McGuire](/2022/regular/dan_mcguire): Model-based cell typing for single cell spatial transcriptomics
-* [Dror Berel](/2022/regular/dror_berel): Benchmarking AWS Sagemaker ML and Forecasting Algorithm Performance with Traditional R Packages
-* [Priyanka Gagneja](/2022/regular/priyanka_gagneja): Going Beyond Tidyverse 101
+#### 9:40-9:55 Break
 
-#### 10:00-10:55 Data Science for Good
+#### 9:55-10:55 R-evolution: Articifial intelligence & R
 
-* [Truzaar Dordi](/2022/regular/truzaar_dordi): Ten Financial Actors can Accelerate a Transition Away from Fossil Fuels
-* [Andrew Pham & Winnie Gong](/2022/regular/andrew_pham): Use of R to Educate Underserved Communities Nationwide
-* [Josh Roll](/2022/regular/josh_roll): Using R to Understand Pedestrian Traffic Injury Inequities in Oregon
+* [Nikhita Damaraju](/2024/regular/nikhita_damaraju): R-tificial intelligence: A guide to using R for ML  
+* [Emily Kraschel](/2024/regular/emily_kraschel): R Workflows in Azure Machine Learning for Athletic Data Analysis
+* [Simon Couch](/2024/regular/simon_couch): Fair machine learning
 
-#### 11:05-12:00 Creating an R Environment for a Team
+#### 10:55-11:10 Break
 
-* [Valeria Duran and Emily Zhang](/2022/regular/valeria_duran): The Challenges of Legacy Code
-* [Rodger Zou and Radhika Etikala](/2022/regular/rodger_zou): Towards a Collaborative R Prog Group: Verification
-* [Radhika Etikala and Emily Zhang](/2022/regular/radhika_etikala): Wrangling the Stakeholder Community – Data Specifications
+#### 11:10-12:10 Visual narRatives
 
-#### 12:00-12:30 Lunch Break
+* [David Keyes](/2024/regular/david_keyes): How to Make a Thousand Plots Look Good: Data Viz Tips for Parameterized Reporting
+* [Justin Sherrill](/2024/regular/justin_sherrill): Cartographic Tricks & Techniques in R
+* [Ken Vu](/2024/regular/ken_vu): Drawing a Christmas card with the ggplot2 package
 
-#### 12:30-1:05 Lightning Talks!
+#### 12:10-1:10 Lunch Break
 
-* [Ben McCary](/2022/lightning/ben_mccary): Persuasion with Pretty Pictures: Using Data Viz to Make a Point
-* [Meike Niederhausen](/2022/lightning/meike_niederhausen): Using Visualizations to Understand Complex Care Trajectory Trends of Veterans in Home-Based Primary Care
-* [Brittany Barker](/2022/lightning/brittany_barker): Spatial Modeling in R to Help Detect Emerald Ash Borer, a New Invader in the Pacific Northwest
-* [Siddharth Bhatia](/2022/lightning/siddharth_bhatia): Engineering Better Shiny Apps using Docker
-* [Kevin Kuo](/2022/lightning/kevin_kuo): Bussin: A Modern Framework for Interactive Data Apps
+#### 1:10-2:10 Shine on with R Shiny
 
-#### 1:15-2:10 Shiny and R
+* [Erica Bishop](/2024/regular/erica_bishop): Don’t repeat yourself: Templatize your R Shiny Apps with Modules
+* [Dror Berel](/2024/regular/dror_berel): High-level, module-based R/Shiny apps with ‘Teal’ framework, with applications beyond the pharma data domain
+* [Matthew Bayly](/2024/regular/matthew_bayly): CEMPRA: Building an R package, R Shiny application, and Quarto book for Cumulative Effect Assessments in BC
 
-* [Jeff Rothschild](/2022/regular/jeff_rothschild): A Dashboard for Calculating Hourly Energy Balance
-* [Nick Sun](/2022/regular/nick_sun): Making Power Calculations Easier with Shiny
-* [Anthony Lusardi](/2022/regular/anthony_lusardi): Improving Energy Imbalances in PNW Using R
+#### 2:10-2:25 Break
 
-#### 2:20-3:15 Reporting & Sharing of R!
+#### 2:25-2:55 Lightning Talks!
 
-* [Tim Anderson](/2022/regular/tim_anderson): Publishing a Book using Only R Ecosystem Tools
-* [Oluwafemi Oyedele](/2022/regular/oluwafemi_oyedele): Reproducible Research with R
-* [Ben Matherson](/2022/regular/ben_matheson): How Anchorage Built Alaska’s Vaccine Finder with R
+* [Bryan Shalloway](/2024/lightning/bryan_shalloway): Prediction Intervals in Tidymodels
+* [Joe Roberts](/2024/lightning/joe_roberts): Taking CRAN to the Next Level with Posit Public Package Manager
+* [Randi Bolt](/2024/lightning/randi_bolt): Code to Content
+* [Lovekumar Patel](/2024/lightning/lovekumar_patel): Empowering Decisions: Advanced Portfolio Analysis and Management through Shiny
+* [Cameron Ashton](/2024/lightning/cameron_ashton): Building R Packages to Deliver Generalized Functions: An Example from Small Number Suppression for Epidemiological Dashboarding
+* [Mohsen Soltanifar](/2024/lightning/mohsen_soltanifar): GenTwoArmsTrialSize: An R Statistical Software Package to estimate Generalized Two Arms Clinical Trial Sample Size
 
-#### 3:15-3:20 Closing Remarks
+#### 2:55-3:15 Break
+
+#### 3:15-4:15 OuR journeys in community & collaboration
+
+* [Lydia Gibson](/2024/regular/lydia_gibson): Learning Together at the Data Science Learning Community
+* [Jacqueline Nolis](/2024/regular/jacqueline_nolis): Docker for R users: run your code in the cloud
+* [Russell Shean](/2024/regular/russell_shean): Just double click on this to automatically to setup an R environment: How to use batch scripts to make it easier for colleagues to start using your R projects 
+
+#### 4:15-4:20 Closing Remarks
+
+#### 4:20-4:30 Break
+
+#### 4:30-6:00 Reception
+
+
 
 <br><br><br>

@@ -10,13 +10,13 @@ YEAR="2024"
 ## If not available, set to "false"
 logo="true"
 cfp="false"
-venue="true"
-agenda="true"
-speakers="true"
-register="true"
+venue="false"
+agenda="false"
+speakers="false"
+register="false"
 alert="false"
 scholarship="false"
-workshop="true"
+workshop="false"
 
 ###### Logo paths ######
 if [ $logo == "true" ];

@@ -284,4 +284,6 @@ As you gather more information and plan, continue to edit the website on your lo
 * Render the final agenda as an html and save it as `content/archive/agenda-YEAR.html`. Update `content/pages/years.html` with a link to this html agenda
 * Upload slide PDFs to `static/talks/talks_YEAR/`. Update `content/pages/years.html` with a link to this directory on GitHub
 * Upload videos to YouTube and add link to `content/years.html`
+* Add past workshop links to `content/pages/workshop_past.md`
+* Add workshop link to `content/years.html`
 
